@@ -1,3 +1,134 @@
-body {
-  background-color: aliceblue;
+/* Header */
+
+header {
+  max-width: 670px;
+  margin: auto;
+  width: 100%;
+  background-image: url(/img/banner_crop.jpg);
+  background-position: center;
+  background-repeat: repeat-x;
+  box-shadow: 10px 10px 20px inset #000000;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border:2px solid #ff3434;
+  padding: 70px 15px 40px 15px;
+  margin-bottom: 40px;
+}
+
+
+
+/* Body */
+
+body { 
+  background: url(/img/background.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(31, 11, 87)
+}
+
+h1, .description {
+  text-align: center;
+} 
+
+
+h1 {
+  font-family: 'Rubik Wet Paint', 'Times New Roman', Times, serif;
+  font-size: 60px;
+  color: white;
+  text-shadow: 40px 5px 40px #660808, 5px 10px 10px #0c0c68;
+}
+
+
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  color: #440404;
+}
+
+.description {
+  width: 600px;
+  background-color: rgba(255,255,255, 0.5);
+  border: solid #0c0c68;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 22px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color:#290303;
+  border: 5px double rgb(77, 0, 0);
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.description:hover {
+  background-color: rgba(255, 255, 174, 0.6);
+}
+
+/* Table */
+
+h2 {
+  font-size: 20px;
+}
+
+.playlist {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+table {
+  width: 600px;
+  background-color: rgba(255,255,255, 0.5);
+}
+
+thead:hover {
+  background-color:#45c4d4
+}
+
+tbody .song:hover {
+  background-color: #e9e990;
+}
+
+tbody .country:hover {
+  background-color: #a59fff;
+}
+
+tbody .genre:hover {
+  background-color: #e69ef5;
+}
+
+tbody .rating:hover {
+  background-color: #84f2fa;
+}
+
+tbody .comment:hover {
+  background-color: rgb(255, 153, 153);
+}
+
+table, th, td {
+	border: 5px double rgb(77, 0, 0);
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+
+
+/* Footer */
+
+footer{
+  width: 600px;
+  background-color: rgba(255,255,255, 0.5);
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 18px;
+  text-align:center;
+  color:#440404;
+  border: 5px double rgb(77, 0, 0);
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 40px;
 }
